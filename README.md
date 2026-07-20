@@ -6,15 +6,9 @@ Official implementation of the paper:
 
 📄 **Paper:** https://link.springer.com/chapter/10.1007/978-3-032-03281-2_14
 
----
-
-## Overview
-
-Accurate forecasting of Electric Vehicle (EV) charging demand is becoming increasingly important for reliable power system operation, charging infrastructure planning, and energy management. The stochastic behavior of EV charging caused by diverse user groups, charging locations, and usage patterns makes this forecasting task particularly challenging.
-
-This repository contains the implementation of a **Multi-Quantile Temporal Convolutional Network (MQ-TCN)** together with **inductive Transfer Learning (TL)** for **day-ahead probabilistic EV charging load forecasting** across geographically diverse charging stations.
-
-The proposed framework enables knowledge transfer from data-rich charging locations to data-scarce locations, significantly reducing the amount of historical data required while maintaining high forecasting accuracy.
+```
+## Paper Abstract
+Electrification of vehicles is a potential way of reducing fossil fuel usage and thus lessening environmental pollution. Electric Vehicles (EVs) of various types for different transport modes (including air, water, and land) are evolving. Moreover, different EV user groups (commuters, commercial or domestic users, drivers) may use different charging infrastructures (public, private, home, and workplace) at various times. Therefore, usage patterns and energy demand are very stochastic. Characterizing and forecasting the charging demand of these diverse EV usage profiles is essential in preventing power outages. Previously developed data-driven load models are limited to specific use cases and locations. None of these models are simultaneously adaptive enough to transfer knowledge of day-ahead forecasting among EV charging sites of diverse locations, trained with limited data, and cost-effective. This article presents a location-based load forecasting of EV charging sites using a deep Multi-Quantile Temporal Convolutional Network (MQ-TCN) to overcome the limitations of earlier models. We conducted our experiments on data from four charging sites, namely Caltech, JPL, Office-1, and NREL, which have diverse EV user types like students, full-time and part-time employees, random visitors, etc. With a Prediction Interval Coverage Probability (PICP) score of 93.62%, our proposed deep MQ-TCN model exhibited a remarkable 28.93% improvement over the XGBoost model for a day-ahead load forecasting at the JPL charging site. By transferring knowledge with the inductive Transfer Learning (TL) approach, the MQ-TCN model achieved a 96.88% PICP score for the load forecasting task at the NREL site using only two weeks of data.
 
 ---
 ## Citation
@@ -31,11 +25,6 @@ If you use this repository in your research, please cite:
   publisher={Springer},
   doi={10.1007/978-3-032-03281-2_14}
 }
-
-```
-## Paper Abstract
-Electrification of vehicles is a potential way of reducing fossil fuel usage and thus lessening environmental pollution. Electric Vehicles (EVs) of various types for different transport modes (including air, water, and land) are evolving. Moreover, different EV user groups (commuters, commercial or domestic users, drivers) may use different charging infrastructures (public, private, home, and workplace) at various times. Therefore, usage patterns and energy demand are very stochastic. Characterizing and forecasting the charging demand of these diverse EV usage profiles is essential in preventing power outages. Previously developed data-driven load models are limited to specific use cases and locations. None of these models are simultaneously adaptive enough to transfer knowledge of day-ahead forecasting among EV charging sites of diverse locations, trained with limited data, and cost-effective. This article presents a location-based load forecasting of EV charging sites using a deep Multi-Quantile Temporal Convolutional Network (MQ-TCN) to overcome the limitations of earlier models. We conducted our experiments on data from four charging sites, namely Caltech, JPL, Office-1, and NREL, which have diverse EV user types like students, full-time and part-time employees, random visitors, etc. With a Prediction Interval Coverage Probability (PICP) score of 93.62%, our proposed deep MQ-TCN model exhibited a remarkable 28.93% improvement over the XGBoost model for a day-ahead load forecasting at the JPL charging site. By transferring knowledge with the inductive Transfer Learning (TL) approach, the MQ-TCN model achieved a 96.88% PICP score for the load forecasting task at the NREL site using only two weeks of data.
-
 
 ---
 
