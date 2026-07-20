@@ -30,6 +30,19 @@ Experiments were conducted using publicly available datasets from **Caltech**, *
 
 ---
 
+## Citation
+
+If you use this repository in your research, please cite:
+
+```bibtex
+@article{ali2024location,
+  title={Location based Probabilistic Load Forecasting of EV Charging Sites: Deep Transfer Learning with Multi-Quantile Temporal Convolutional Network},
+  author={Ali, Mohammad Wazed and Mustafa, Asif bin and Shuvo, Md. Aukerul Moin and Sick, Bernhard},
+  journal={arXiv preprint arXiv:2409.11862},
+  year={2024}
+}
+
+```
 ## Repository Contents
 
 This repository provides the complete implementation used in the paper, including:
@@ -37,12 +50,13 @@ This repository provides the complete implementation used in the paper, includin
 * Data preprocessing pipeline
 * Feature engineering
 * Multi-Quantile Temporal Convolutional Network (MQ-TCN)
+* DeepAR
+* iTransformer
 * Transfer Learning framework
 * Model training
 * Fine-tuning on target charging stations
 * Probabilistic forecasting evaluation
-* Visualization scripts
-* Experimental configurations
+
 
 ---
 
@@ -112,46 +126,6 @@ Install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-
----
-
-## Running Experiments
-
-Train the MQ-TCN model:
-
-```bash
-python train.py
-```
-
-Fine-tune using transfer learning:
-
-```bash
-python transfer_learning.py
-```
-
-Evaluate the trained model:
-
-```bash
-python evaluate.py
-```
-
-*(Replace the above commands with the actual scripts in this repository if they differ.)*
-
----
-
-## Citation
-
-If you use this repository in your research, please cite:
-
-```bibtex
-@article{ali2024location,
-  title={Location based Probabilistic Load Forecasting of EV Charging Sites: Deep Transfer Learning with Multi-Quantile Temporal Convolutional Network},
-  author={Ali, Mohammad Wazed and Mustafa, Asif bin and Shuvo, Md. Aukerul Moin and Sick, Bernhard},
-  journal={arXiv preprint arXiv:2409.11862},
-  year={2024}
-}
-```
-
 ---
 
 ## License
