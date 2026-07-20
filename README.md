@@ -15,7 +15,7 @@ Electrification of vehicles is a potential way of reducing fossil fuel usage and
 
 If you use this repository in your research, please cite:
 
-```bibtex
+bibtex
 @article{ali2025location,
   title={Location-Based Probabilistic Load Forecasting of Electric Vehicle Charging Sites: Deep Transfer Learning with Multi-quantile Temporal Convolutional Network},
   author={Ali, Mohammad Wazed and Mustafa, Mohammad Asif Ibna and Shuvo, Md. Aukerul Moin and Sick, Bernhard},
