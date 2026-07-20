@@ -103,7 +103,7 @@ These datasets represent diverse charging environments, including university cam
 Clone the repository:
 
 ```bash
-git clone https://github.com/<username>/<repository>.git
+git clone https://github.com/DeepWazed/Location-based-Probabilistic-Load-Forecasting-of-EV-Charging-Sites-Transfer-Learning-with-MQ-TCN/tree/main
 cd <repository>
 ```
 
