@@ -16,16 +16,17 @@ Electrification of vehicles is a potential way of reducing fossil fuel usage and
 If you use this repository in your research, please cite:
 
 ```bibtex
-@article{ali2025location,
-  title={Location-Based Probabilistic Load Forecasting of Electric Vehicle Charging Sites: Deep Transfer Learning with Multi-quantile Temporal Convolutional Network},
-  author={Ali, Mohammad Wazed and Mustafa, Mohammad Asif Ibna and Shuvo, Md. Aukerul Moin and Sick, Bernhard},
-  booktitle={Architecture of Computing Systems},
-  pages={205--219},
-  year={2025},
-  publisher={Springer},
-  doi={10.1007/978-3-032-03281-2_14}
+@inproceedings{ali2025location,
+  title = {Location-Based Probabilistic Load Forecasting of Electric Vehicle Charging Sites: Deep Transfer Learning with Multi-quantile Temporal Convolutional Network},
+  author = {Ali, Mohammad Wazed and Mustafa, Mohammad Asif Ibna and Shuvo, Md. Aukerul Moin and Sick, Bernhard},
+  booktitle = {Architecture of Computing Systems},
+  pages = {205--219},
+  year = {2025},
+  publisher = {Springer},
+  doi = {10.1007/978-3-032-03281-2_14}
 }
-'''
+```
+
 ---
 
 ## Repository Contents
