@@ -1,3 +1,16 @@
+## Citation
+
+If you use this repository in your research, please cite:
+
+```bibtex
+@article{ali2024location,
+  title={Location based Probabilistic Load Forecasting of EV Charging Sites: Deep Transfer Learning with Multi-Quantile Temporal Convolutional Network},
+  author={Ali, Mohammad Wazed and Mustafa, Asif bin and Shuvo, Md. Aukerul Moin and Sick, Bernhard},
+  journal={arXiv preprint arXiv:2409.11862},
+  year={2024}
+}
+
+```
 # Location-based Probabilistic Load Forecasting of EV Charging Sites: Deep Transfer Learning with Multi-Quantile Temporal Convolutional Network (MQ-TCN)
 
 Official implementation of the paper:
@@ -30,19 +43,6 @@ Experiments were conducted using publicly available datasets from **Caltech**, *
 
 ---
 
-## Citation
-
-If you use this repository in your research, please cite:
-
-```bibtex
-@article{ali2024location,
-  title={Location based Probabilistic Load Forecasting of EV Charging Sites: Deep Transfer Learning with Multi-Quantile Temporal Convolutional Network},
-  author={Ali, Mohammad Wazed and Mustafa, Asif bin and Shuvo, Md. Aukerul Moin and Sick, Bernhard},
-  journal={arXiv preprint arXiv:2409.11862},
-  year={2024}
-}
-
-```
 ## Repository Contents
 
 This repository provides the complete implementation used in the paper, including:
