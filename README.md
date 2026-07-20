@@ -1,19 +1,3 @@
-## Citation
-
-If you use this repository in your research, please cite:
-
-```bibtex
-@article{ali2025location,
-  title={Location-Based Probabilistic Load Forecasting of Electric Vehicle Charging Sites: Deep Transfer Learning with Multi-quantile Temporal Convolutional Network},
-  author={Ali, Mohammad Wazed and Mustafa, Mohammad Asif Ibna and Shuvo, Md. Aukerul Moin and Sick, Bernhard},
-  booktitle={Architecture of Computing Systems},
-  pages={205--219},
-  year={2025},
-  publisher={Springer},
-  doi={10.1007/978-3-032-03281-2_14}
-}
-
-```
 # Location-based Probabilistic Load Forecasting of EV Charging Sites: Deep Transfer Learning with Multi-Quantile Temporal Convolutional Network (MQ-TCN)
 
 Official implementation of the paper:
@@ -33,16 +17,25 @@ This repository contains the implementation of a **Multi-Quantile Temporal Convo
 The proposed framework enables knowledge transfer from data-rich charging locations to data-scarce locations, significantly reducing the amount of historical data required while maintaining high forecasting accuracy.
 
 ---
+## Citation
 
+If you use this repository in your research, please cite:
+
+```bibtex
+@article{ali2025location,
+  title={Location-Based Probabilistic Load Forecasting of Electric Vehicle Charging Sites: Deep Transfer Learning with Multi-quantile Temporal Convolutional Network},
+  author={Ali, Mohammad Wazed and Mustafa, Mohammad Asif Ibna and Shuvo, Md. Aukerul Moin and Sick, Bernhard},
+  booktitle={Architecture of Computing Systems},
+  pages={205--219},
+  year={2025},
+  publisher={Springer},
+  doi={10.1007/978-3-032-03281-2_14}
+}
+
+```
 ## Paper Abstract
 
-Electric vehicle charging demand varies significantly across charging stations due to differences in user behavior, charging infrastructure, and geographical location. Existing forecasting methods are often designed for specific charging sites and require large amounts of historical data, limiting their applicability to newly deployed or data-scarce charging stations.
-
-This work proposes a **location-based probabilistic load forecasting framework** using a **Multi-Quantile Temporal Convolutional Network (MQ-TCN)**. Unlike deterministic forecasting methods, the proposed model estimates multiple prediction quantiles, allowing uncertainty to be quantified through prediction intervals.
-
-To improve adaptability across charging stations, the framework incorporates **inductive Transfer Learning**, enabling a model trained on one location to be efficiently fine-tuned for another location using only a small amount of target-site data.
-
-Experiments were conducted using publicly available datasets from **Caltech**, **JPL**, **Office-1**, and **NREL** charging stations. The proposed MQ-TCN achieved substantial improvements in probabilistic forecasting performance compared with conventional machine learning approaches and demonstrated strong transferability to unseen charging locations using only two weeks of target data.
+Electric vehicle charging demand varies significantly across charging stations due to differences in user behavior, charging infrastructure, and geographical location. Existing forecasting methods are often designed for specific charging sites and require large amounts of historical data, limiting their applicability to newly deployed or data-scarce charging stations. This work proposes a **location-based probabilistic load forecasting framework** using a **Multi-Quantile Temporal Convolutional Network (MQ-TCN)**. Unlike deterministic forecasting methods, the proposed model estimates multiple prediction quantiles, allowing uncertainty to be quantified through prediction intervals. To improve adaptability across charging stations, the framework incorporates **inductive Transfer Learning**, enabling a model trained on one location to be efficiently fine-tuned for another location using only a small amount of target-site data. Experiments were conducted using publicly available datasets from **Caltech**, **JPL**, **Office-1**, and **NREL** charging stations. The proposed MQ-TCN achieved substantial improvements in probabilistic forecasting performance compared with conventional machine learning approaches and demonstrated strong transferability to unseen charging locations using only two weeks of target data.
 
 ---
 
