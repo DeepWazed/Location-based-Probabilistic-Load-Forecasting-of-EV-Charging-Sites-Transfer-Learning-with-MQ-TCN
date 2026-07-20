@@ -4,7 +4,7 @@ Official implementation of the paper:
 
 **Location-based Probabilistic Load Forecasting of EV Charging Sites: Deep Transfer Learning with Multi-Quantile Temporal Convolutional Network (MQ-TCN)**
 
-📄 **Paper:** https://arxiv.org/abs/2409.11862
+📄 **Paper:** https://link.springer.com/chapter/10.1007/978-3-032-03281-2_14
 
 ---
 
