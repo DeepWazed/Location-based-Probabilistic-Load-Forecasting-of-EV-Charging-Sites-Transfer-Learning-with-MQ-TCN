@@ -3,11 +3,14 @@
 If you use this repository in your research, please cite:
 
 ```bibtex
-@article{ali2024location,
-  title={Location based Probabilistic Load Forecasting of EV Charging Sites: Deep Transfer Learning with Multi-Quantile Temporal Convolutional Network},
-  author={Ali, Mohammad Wazed and Mustafa, Asif bin and Shuvo, Md. Aukerul Moin and Sick, Bernhard},
-  journal={arXiv preprint arXiv:2409.11862},
-  year={2024}
+@article{ali2025location,
+  title={Location-Based Probabilistic Load Forecasting of Electric Vehicle Charging Sites: Deep Transfer Learning with Multi-quantile Temporal Convolutional Network},
+  author={Ali, Mohammad Wazed and Mustafa, Mohammad Asif Ibna and Shuvo, Md. Aukerul Moin and Sick, Bernhard},
+  booktitle={Architecture of Computing Systems},
+  pages={205--219},
+  year={2025},
+  publisher={Springer},
+  doi={10.1007/978-3-032-03281-2_14}
 }
 
 ```
